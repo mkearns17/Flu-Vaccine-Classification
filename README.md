@@ -1,14 +1,14 @@
-#Business Understanding
+# Business Understanding
 
-#Data Understanding
-##Data Preparation
+# Data Understanding
+## Data Preparation
 
-#Exploratory Data Analysis
+# Exploratory Data Analysis
 
-#Conclusion
+# Conclusion
 
-##Limitations
+## Limitations
 
-##Recomendataions
+## Recomendataions
 
-##Next Steps
+## Next Steps
