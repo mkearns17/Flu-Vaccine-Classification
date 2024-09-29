@@ -1,7 +1,7 @@
 # Will they receive a flu vaccine?
 by Michael Kearns
 
-![image](./vaccine_image.jpeg)
+![img](./vaccine_image.jpeg)
 
 # Business Understanding
 The company is prepping for the upcoming flu season. The production team wants to determine how many vaccines they need to produce to avoid over spending and reduce waste. To determine this, the plan is to gather information from a sample of individuals and classify how many of them will receive the vaccine based on their health behaviors and opinions. Previous data has been gathered about indiviauls' opnions and behaviors and whether they had received the flu vaccine in the past. By building a classification model on this previous data, this model can be used to make future classifications and predictions.
@@ -62,14 +62,18 @@ The health behaviors and opinions uses numbers but they represent actions and op
 
 ## Baseline Model - Logistic Regression Model
 Baseline - Training Recall:  0.739
+<br>
 Baseline - Testing Recall:  0.743
+<br>
 Baseline Model Average Cross Validation Scores: 0.732
 
 Recall numbers on Training data and testing data are similar. This shows that the model is not overfitting to the training data. Ideally though the model performs higher with better recall values. A 74% recall number means that of all the people who received the flu vaccine, 74% of them were correctly identified. The Baseline training recall and average cross validation score are similar. This shows the model is generalizing well. 
 
 ### Model 2 - Decision Tree
 Decision Tree - Training Recall:  0.832
+<br>
 Decision - Testing Recall:  0.658
+<br>
 Decision Tree Average Cross Validation Scores: 0.650
 
 The Decision tree model improved on the training data, but was worse on the test data. This shows that model is overfitting to the training data and cannot predict as well on the test data. The model training recall is slightly better than the validation score. This shows that the decision tree model is overfit slightly, and there is some noise in the data that model is training on. This model also has a lot of layers, it appears to be overly complex and simplifying the model/tuning the parameters can improve overfitting.
@@ -77,12 +81,14 @@ The Decision tree model improved on the training data, but was worse on the test
 ### Model 3 - TUNED DECISION TREE
 
 Check for optimal tuned paramters:
-![image]("./images/decision_tree_parameters.png")
+![img]("./images/decision_tree_parameters.png")
 Try max depth of 6, minimum sample split of 0.6, and minimum sample leaf value of 0.1.
 
 
 Tuned Decision Tree - Training Recall:  0.780
+<br>
 Tuned Decision - Testing Recall:  0.776
+<br>
 Tuned Decision Tree Average Cross Validation Scores: 0.780
 
 The tuned decision tree model is no longer overfitting to the training data. The validation and training recall scores are nearly identical proving that the model is not overfit. The training recall score is also nearly identical to the test recall score. The model is performing well. This example shows that on the training and test data, it correctly identified 78% of people of someone who received the seasonl flu vaccine.
@@ -90,7 +96,9 @@ The tuned decision tree model is no longer overfitting to the training data. The
 # Conclusion
 
 Model 1 - Baseline Model Test Recall: 0.743
+<br>
 Model 2 - Decision Tree Model Test Recall: 0.658
+<br>
 Model 3 - Tuned Decision Tree Model Test Recall: 0.776
 
 ## Recomendataions
