@@ -1,7 +1,7 @@
 # Will they receive a flu vaccine?
 by Michael Kearns
 
-![img](./iamges/vaccine_image)
+![img](./iamges/vaccine_image.png)
 
 # Business Understanding
 The company is prepping for the upcoming flu season. The production team wants to determine how many vaccines they need to produce to avoid over spending and reduce waste. To determine this, the plan is to gather information from a sample of individuals and classify how many of them will receive the vaccine based on their health behaviors and opinions. Previous data has been gathered about indiviauls' opnions and behaviors and whether they had received the flu vaccine in the past. By building a classification model on this previous data, this model can be used to make future classifications and predictions.
