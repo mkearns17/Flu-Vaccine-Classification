@@ -1,7 +1,7 @@
 # Will they receive a flu vaccine?
 by Michael Kearns
 
-![img](./vaccine_image.jpeg)
+![img](./iamges/vaccine_image.jpeg)
 
 # Business Understanding
 The company is prepping for the upcoming flu season. The production team wants to determine how many vaccines they need to produce to avoid over spending and reduce waste. To determine this, the plan is to gather information from a sample of individuals and classify how many of them will receive the vaccine based on their health behaviors and opinions. Previous data has been gathered about indiviauls' opnions and behaviors and whether they had received the flu vaccine in the past. By building a classification model on this previous data, this model can be used to make future classifications and predictions.
@@ -81,7 +81,8 @@ The Decision tree model improved on the training data, but was worse on the test
 ### Model 3 - TUNED DECISION TREE
 
 Check for optimal tuned paramters:
-![img]("./images/decision_tree_parameters.png")
+![img](./images/decision_tree_parameters.png)
+<br>
 Try max depth of 6, minimum sample split of 0.6, and minimum sample leaf value of 0.1.
 
 
