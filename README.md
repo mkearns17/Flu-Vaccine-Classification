@@ -37,7 +37,8 @@ The average opinion on risk of getting sick without flu vaccine is 2.73 - "somew
 The everage opinion on getting sick from taking the flu vaccine is 2.12 - "somewhat low"
 
 The respondents' distribution of health behaviors:
-![img](./images/health_behaviors.png)
+![img](./images/health_behaviors_1.png)
+![img](./images/health_behaviors_2.png)
 
 Percent 'Yes' from Respondents Health Beahviors: 
 
@@ -102,7 +103,7 @@ Model 2 - Decision Tree Model Test Recall: 0.658
 <br>
 Model 3 - Tuned Decision Tree Model Test Recall: 0.776
 
-## Recomendataions
+## Recomendations
 
 As shown above, Model 3 has the best performance. Once new data is collected, we will use **Model 3** to predict if individuals from that data sample will get the seasonal flu vaccine. Obviously we cannot collect data from everyone, therefore we will use the results from the sample size to inform our manufacturing team how many vaccines to produce. 
 
