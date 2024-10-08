@@ -117,8 +117,10 @@ There are many other factors to consider when deciding on the correct number of 
 The next steps would be to collect data on health behaviors and opionions such that Model created can be used. 
 
 ## Repository Structure
+```
 ├── data
 ├── images
 ├── README.md
 ├── Presentation.pdf
 └── notebook.ipynb
+```
